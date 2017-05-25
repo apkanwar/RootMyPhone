@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">How to Root</string>
+    <string name="welcome">Welcome to tutorials to how to root your phone</string>
+    <string name="get_started">To get started:</string>
+    <string name="step1">Swipe from the left of the screen to choose your device</string>
+    <string name="step2">Follow all instructions very carefully to ensure nothing happens to your device</string>
+    <string name="step3">If your phone not on the list of devices please provide feedback by emailing us with your phone name and model</string>
+    <string name="step4">If rooting is successful, please feel free to share this app with your friends</string>
+    <string name="warning">Important: \n\nPlease note that whatever happens to your phone is by your own doing and is not the app or developer\'s fault</string>
+    <string name="get_started_title">Get Started</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="developer">Developed By: Atinderpaul Kanwar</string>
+    <string name="title_activity_about">About</string>
+    <string name="about_app">Root my Phone is an app that helps a user to simply root his phone. When looking for something new in Android, many user look towards rooting their phone. Therefore \'Root my Phone\' gives step by step instructions on how a specific phone should be rooted.</string>
+    <string name="about_me">Atinderpaul Kanwar is a future software engineer and developer of Root my Phone. He has lots of experience in programming languages</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="learn_more">learn</string>
+
+    <!-- OnePlus One Activity -->
+    <string name="title_activity_one_plus_one">OnePlusOne</string>
+    <string name="opo_title">OnePlus One</string>
+    <string name="title_activity_device_list">Devices List</string>
+    <string name="list_of_devices">List of Devices</string>
+    <string name="follow_steps">FOLLOW THESE STEPS VERY CAREFULLY -></string>
+    <string name="opo_step1">1) Go to: http://www.wugfresh.com/brt/</string>
+    <string name="opo_step2">2) Save link and open on computer.</string>
+    <string name="opo_step3">3) Connect Phone to Computer</string>
+    <string name="opo_step4">4) Enable USB Debugging (If you don\'t know how, you should not be rooting your phone)</string>
+    <string name="opo_step5">5) Check if phone is showing up under \'Your Model Type\' tab</string>
+    <string name="important_message">NOW NOTE THE LAST TWO STEPS DOWN, BECAUSE YOUR PHONE WILL REBOOT</string>
+    <string name="opo_step6">6) Click Unlock</string>
+    <string name="opo_step7">7) Click Root</string>
+    <string name="opo_enjoy">8) Enjoy Your Rooted OnePlus One!</string>
+    <string name="root_title">ROOT</string>
+    <string name="setting_1">Dark Theme</string>
+    <string name="setting_2">Learn More</string>
+
+
+    <string name="shortcut_one">List of Devices</string>
+    <string name="title_activity_one_plus_2">Asus Zenfone 2 (Z00A)</string>
+    <string name="splash_message">Only Verified Phones on App</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+
+    <string name="do_on_phone_warning">Make Sure to do Steps: (1–4) on your phone.</string>
+    <string name="zenfone2_step1">1) Go to: https://www.asus.com/us/Phone/ZenFone_2_ZE551ML/HelpDesk_Download/ to download bootloader unlock tool.</string>
+    <string name="zenfone2_step2">2) Select Android as \'OS Type\' and click \'Utilities\'</string>
+    <string name="zenfone2_step3">3) Go to Unlock Bootloader section and click Global.</string>
+    <string name="zenfone_step4">4) Follow Steps on App to Unlock Bootloader.</string>
+    <string name="zenfone2_unlocked">To check if bootloader is unlocked, when the phone reboots, it should be a white screen with a black ASUS logo.</string>
+    <string name="zenfone2_step5">5) </string>
+    <string name="zenfone2_enjoy">6) Enjoy Your Rooted Asus Zenfone 2!</string>
+
+    <!-- Strings related to Settings -->
+
+
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_oneplusone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="-4dp"
+    android:layout_marginBottom="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="me.atinderpaulk.howtoroot.OPOActivity" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="50dp"
+            android:maxWidth="100dp"
+            app:srcCompat="@drawable/opo_image"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:paddingStart="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/follow_steps"
+            android:layout_marginTop="20dp"
+            android:id="@+id/follow_steps"
+            android:textStyle="bold"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:paddingStart="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opo_step1"
+            android:id="@+id/step1"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/follow_steps"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:paddingStart="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opo_step2"
+            android:id="@+id/step2"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/step1"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:paddingStart="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opo_step3"
+            android:id="@+id/step3"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/step2"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:paddingStart="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opo_step4"
+            android:id="@+id/step4"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/step3"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:paddingStart="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opo_step5"
+            android:id="@+id/step5"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/step4"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:paddingStart="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/important_message"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:id="@+id/IM"
+            android:layout_below="@+id/step5"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:paddingStart="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opo_step6"
+            android:id="@+id/step6"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/IM"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:paddingStart="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opo_step7"
+            android:id="@+id/step7"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/step6"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:paddingStart="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opo_enjoy"
+            android:id="@+id/enjoy"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/step7"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            app:srcCompat="@drawable/oneplus_logo"
+            android:layout_marginTop="70dp"
+            android:layout_toEndOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/root_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/root_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:gravity="center"
+            android:layout_marginStart="6dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_toEndOf="@+id/imageView2" />
+
+    </RelativeLayout>
+
+</ScrollView>
